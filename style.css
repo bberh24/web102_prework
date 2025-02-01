@@ -21,8 +21,13 @@ body {
 
 .stats-container {
     display: flex;
-}
+    align-items: center;
 
+}
+.stats-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
 .stats-card {
     background-color: #a8b0bc;
     border-radius: 7px;
@@ -46,6 +51,13 @@ body {
     width: 100%;
     border-radius: 5px;
     box-shadow: 0 0 10px #FFFFFF;
+}
+
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .game-card {
